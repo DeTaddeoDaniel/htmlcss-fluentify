@@ -1,3 +1,58 @@
-body{
-    background-image: url("https://i.pinimg.com/originals/2c/67/fb/2c67fb43d38ebe75ef01fd0a3367ba46.jpg");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.margin-large{
+    width: 1080px;
+    padding: 15px;
+    margin:0 auto;
+}
+
+.fixed{
+    position: fixed;
+    width:100vw;
+    z-index: 5;
+}
+
+.wrapper{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+}
+
+
+.ombra{
+    background: rgb(2,0,36);
+    z-index: 0;
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(9,9,121,0.7147233893557423) 19%, rgba(0,18,255,0.39539565826330536) 36%, rgba(0,18,255,0) 57%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(9,9,121,0.7147233893557423) 19%, rgba(0,18,255,0.39539565826330536) 36%, rgba(0,18,255,0) 57%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(9,9,121,0.7147233893557423) 19%, rgba(0,18,255,0.39539565826330536) 36%, rgba(0,18,255,0) 57%);
+}
+
+header{
+    height: 400px;
+    background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.line-left-header{
+    height: 280px;
+    z-index: 3;
+    position: absolute;
+    border: 3px solid yellow;
+}
+
+.line-right-header{
+    width: 100px;
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    border: 3px solid yellow;
 }
