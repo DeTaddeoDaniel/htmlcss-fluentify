@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.container::after {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
@@ -188,15 +188,33 @@ main{
 
 }
 
-main .feature{
-    margin-top: 55px;
+main h5{
+    font-size: 27px;
+    color: rgb(0, 26, 79);
+
+}
+
+main p{
+    font-weight: 400;
+
+}
+
+main h2{
+    font-size: 40px;
+    color: rgb(114,114,114);
     margin-bottom: 55px;
+}
+
+main .feature{
+    /* background-color: orange; */
+    margin-top: 55px;
+    margin-bottom: 120px;
 }
 
 main .feature .image{
     float: left;
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 main .feature .list-feature{
@@ -215,24 +233,28 @@ main .feature .list-feature .item-feature{
     border-bottom: 1px solid rgb(114, 114, 144);
 }
 
-main h2{
-    font-size: 40px;
-    color: rgb(114,114,114);
-    margin-bottom: 55px;
-
+main .feature .list-feature :last-child{
+    border: 0;
 }
+
 
 main .feature .list-feature h2 span{
     color:#64DE82;
 }
 
-main h5{
-    font-size: 27px;
-    color: rgb(0, 26, 79);
-
+main .device{
+    text-align: center;
+    margin-bottom: 125px;
+    /* background-color: blue; */
 }
 
-main p{
-    font-weight: 400;
+main .device .list-item h2{
+    padding-bottom: 35px;
+}
 
+main .device .list-item .item{
+    float: left;
+    width: calc(100% / 3);
+    display: inline-block;
+    padding: 25px;
 }
