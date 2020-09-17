@@ -388,6 +388,7 @@ footer .footer-text{
 footer .footer-link{
     float: left;
     width: calc((100% / 7) * 6);
+    padding-top: 30px;
 }
 
 footer .footer-link-top{
@@ -399,6 +400,8 @@ footer .footer-link-top{
 footer .footer-link-top ul{
     /* background-color: orange; */
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: calc(100% /6);
 }
 
@@ -417,5 +420,36 @@ footer .footer-link-botton li a{
 }
 
 footer .footer-link-botton li :first-child{
+    padding-left: 0;
+}
+
+footer .footer-text {
+    padding-left: 5px;
+}
+footer .footer-text p{
+    width: 100%;
+}
+
+footer .footer-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .footer-text a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .social li{
+    padding-top: 15px;
+}
+
+footer .social li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+footer .social :first-child{
     padding-left: 0;
 }
