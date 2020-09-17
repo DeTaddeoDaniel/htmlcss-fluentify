@@ -349,3 +349,73 @@ main .app .image-app img{
     color: white;
     padding-bottom: 30px;
 }
+
+/* footer */
+footer{
+    background-color: rgb(20,88,189);
+    color: white;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li{
+    color: white;
+}
+
+footer ul li a{
+    text-decoration: none;
+    display: block;
+    color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer ul li a:hover{
+    color: rgb(206, 245, 216);
+}
+
+footer .footer-text{
+    float: left;
+    width: calc(100% / 7);
+}
+
+footer .footer-link{
+    float: left;
+    width: calc((100% / 7) * 6);
+}
+
+footer .footer-link-top{
+    /* background-color: green; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(206, 245, 216);
+}
+
+footer .footer-link-top ul{
+    /* background-color: orange; */
+    float: left;
+    width: calc(100% /6);
+}
+
+footer .footer-link-botton{
+    padding-top: 20px;
+}
+
+footer .footer-link-botton li {
+    display: inline-block;
+}
+
+footer .footer-link-botton li a{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer .footer-link-botton li :first-child{
+    padding-left: 0;
+}
