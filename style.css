@@ -202,7 +202,7 @@ main h2{
 }
 
 main p{
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(114, 114, 114);
 }
 
@@ -266,10 +266,11 @@ main .app{
 }
 
 main .app .text{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-right: 140px;
     color: white;
-    width: 460px;
+    width: 50%;
     float: left;
 }
 
@@ -291,7 +292,6 @@ main .app .text a{
 }
 
 main .app .image-app img{
-    padding-left: 125px;
     display: inline;
 }
 
@@ -308,15 +308,44 @@ main .app .image-app img{
 
 .piattaforma-content .image-piattaforfa{
     display: inline-block;
+    width: 50%;
     /* background-color: red; */
 }
 
 .piattaforma-content .text{
     display: inline-block;
     /* background-color: blue; */
-    width: 450px;
-    margin-left: 150px;
+    width: 50%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/* Piano di studio */
+.piano-di-studio{
+    background-color: RGB(42, 71, 129);
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+.piano-di-studio .title{
+    display: inline-block;
+    /* background-color: green; */
+    width: 50%;
+}
+
+.piano-di-studio .text{
+    display: inline-block;
+    width: 40%;
+    /* background-color: purple; */
+}
+
+.piano-di-studio h2{
+    color: white;
+    margin: 0;
+}
+
+.piano-di-studio p{
+    color: white;
+    padding-bottom: 30px;
 }
