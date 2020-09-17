@@ -5,12 +5,12 @@
 }
 
 body {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Maven Pro';
     font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-weight: 500;
 }
 
@@ -202,34 +202,37 @@ main .feature .image{
 main .feature .list-feature{
     float: left;
     width: 50%;
-    background-color: green;
-}
-
-main .feature .list-feature:not(:first){
-
+    /* background-color: green; */
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(114, 114, 114);
+    font-size: 15px;
 }
 
 main .feature .list-feature .item-feature{
-    border-bottom: 1px solid rgb(114,114,114);
+    margin-bottom: 27px;
+    padding-bottom:27px;
+    border-bottom: 1px solid rgb(114, 114, 144);
 }
 
-main .feature .list-feature .item-feature :nth-child(3){
-
-    border: 0;
-}
-
-main .feature .list-feature .item-feature h2{
+main h2{
     font-size: 40px;
     color: rgb(114,114,114);
+    margin-bottom: 55px;
 
 }
 
-main .feature .list-feature .item-feature h2 span{
-    color:#64DE82
+main .feature .list-feature h2 span{
+    color:#64DE82;
 }
 
-main .feature .list-feature .item-feature h5{
+main h5{
     font-size: 27px;
     color: rgb(0, 26, 79);
+
+}
+
+main p{
+    font-weight: 400;
 
 }
