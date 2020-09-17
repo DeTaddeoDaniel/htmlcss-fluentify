@@ -298,3 +298,25 @@ main .app .image-app img{
 main .app .image-app img{
     display: block;
 }
+
+/* piattaforma */
+.piattaforma-content{
+    position: relative;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.piattaforma-content .image-piattaforfa{
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.piattaforma-content .text{
+    display: inline-block;
+    /* background-color: blue; */
+    width: 450px;
+    margin-left: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
