@@ -188,14 +188,10 @@ main{
 
 }
 
+/* style in comune */
 main h5{
     font-size: 27px;
     color: rgb(0, 26, 79);
-
-}
-
-main p{
-    font-weight: 400;
 
 }
 
@@ -205,6 +201,12 @@ main h2{
     margin-bottom: 55px;
 }
 
+main p{
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+/* sezione feature */
 main .feature{
     /* background-color: orange; */
     margin-top: 55px;
@@ -223,8 +225,6 @@ main .feature .list-feature{
     /* background-color: green; */
     padding-left: 20px;
     padding-right: 20px;
-    color: rgb(114, 114, 114);
-    font-size: 15px;
 }
 
 main .feature .list-feature .item-feature{
@@ -237,11 +237,11 @@ main .feature .list-feature :last-child{
     border: 0;
 }
 
-
 main .feature .list-feature h2 span{
     color:#64DE82;
 }
 
+/* sezione device */
 main .device{
     text-align: center;
     margin-bottom: 125px;
@@ -257,4 +257,44 @@ main .device .list-item .item{
     width: calc(100% / 3);
     display: inline-block;
     padding: 25px;
+}
+
+/* sezione app */
+main .app{
+    text-align: left;
+    background-color: RGB(1, 26, 80);
+}
+
+main .app .text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    width: 460px;
+    float: left;
+}
+
+main .app .text h3{
+    font-size: 40px;
+}
+
+main .app .text p{
+    color: white;
+    margin-bottom: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+main .app .text a{
+    color: green;
+    text-decoration: none;
+    padding-top: 18px;
+}
+
+main .app .image-app img{
+    padding-left: 125px;
+    display: inline;
+}
+
+main .app .image-app img{
+    display: block;
 }
