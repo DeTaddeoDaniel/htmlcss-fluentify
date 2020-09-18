@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro';
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.margin {
+    width: 1240px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.sfumatura{
+    background: rgb(0,18,255);
+    height: 100%;
+    background: -webkit-gradient(linear, right top, left top, from(transparent), to(#001A4F));
+    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+}
+
+.icon::before {
+   display: inline-block;
+   font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+ }
+
+ .drop::after{
+     font-family: "Font Awesome 5 Free";
+     font-weight: 900;
+     content: "\f078";
+
+ }
+
+ .button {
+     display: inline-block;
+     border-radius: 5px;
+     background-color: #64DE82;
+     border: 1px solid #64DE82;
+     color: #337142;
+     text-decoration: none;
+     padding: 7px 14px;
+ }
+
+ .button:hover {
+     background-color: rgba(100,222,130,0.7);
+     border-color: rgba(100,222,130,0.7);
+     color: white;
+ }
+
+ .button.button-white {
+     background-color: transparent;
+     color: white;
+     border: 1px solid white;
+ }
+
+ .button.button-white:hover {
+     color: #001A4F;
+     background-color: white;
+ }
+
+/* --------------------------------------- */
+
+header{
+    background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    color: white;
+    font-size: 12px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+header nav {
+    padding-top: 15px;
+    /* background-color: red; */
+    text-transform: uppercase;
+}
+
+header .logo{
+    float: left;
+}
+
+header .logo img{
+    height: 40px;
+}
+
+header .nav-page{
+    float: left;
+    margin: 12px;
+}
+
+header .nav-pulsanti{
+    float: left;
+    text-align: right;
+    width: 33%;
+    margin-top: 4px;
+}
+
+/* ---------------------------------- */
+
+header .header-text{
+    font-size: 18px;
+    width: 420px;
+    margin-left: 225px;
+    margin-top: 40px;
+}
+
+header .header-text p{
+
+}
+
+header .header-text h2{
+    font-size: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+header .header-text a{
+    margin-top: 18px;
+}
