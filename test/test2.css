@@ -123,6 +123,7 @@ header .logo img{
 header .nav-page{
     float: left;
     margin: 12px;
+    position: relative;
 }
 
 header .nav-pulsanti{

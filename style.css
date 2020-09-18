@@ -380,14 +380,15 @@ footer ul li a:hover{
     color: rgb(206, 245, 216);
 }
 
-footer .footer-text
+footer .footer-text{
     float: left;
-    width: calc(100% / 7);
+    width: 212px;
+    /* background-color: red; */
 }
 
 footer .footer-link{
     float: left;
-    width: calc((100% / 7) * 6);
+    /* background-color: green; */
     padding-top: 30px;
 }
 
