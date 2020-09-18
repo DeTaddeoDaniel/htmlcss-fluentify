@@ -178,15 +178,36 @@ header ul li .drop-list li a{
     height: 20px;
     transform: rotate(45deg);
     display: none;
+    top:22px;
 }
 
-header ul li:hover .quadrato{
+header li:hover .quadrato{
     display: block;
 }
 
 .quadrato1{
-    top:22px;
-    left: 85px;
+    left: 80px;
+}
+
+.quadrato2{
+    left: 57px;
+}
+
+.quadrato3{
+    left: 67px;
+}
+
+.quadrato4{
+    left: 50px;
+}
+
+.quadrato5{
+    left: 68px;
+}
+
+.quadrato6{
+    left: 10px;
+    top: 0;
 }
 
 /* ---------------------------------- */
