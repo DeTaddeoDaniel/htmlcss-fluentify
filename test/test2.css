@@ -104,6 +104,7 @@ header{
 header ul li {
     display: inline-block;
     padding: 5px 10px;
+    position: relative;
 }
 
 header nav {
@@ -131,6 +132,35 @@ header .nav-pulsanti{
     text-align: right;
     width: 33%;
     margin-top: 4px;
+}
+
+header .nav-pulsanti li a{
+    color: white;
+}
+
+/* menu a tendina style */
+header ul li .drop-list{
+    background-color: RGB(0, 25, 79);
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+}
+
+header ul li:hover .drop-list{
+    margin-top: 4px;
+    display: block;
+}
+
+header ul li .drop-list li{
+    border-top: 1px solid #304778;
+    border-bottom: 1px solid #304778;
+}
+
+header ul li .drop-list li a{
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 5px;
+    display: inline-block;
 }
 
 /* ---------------------------------- */
