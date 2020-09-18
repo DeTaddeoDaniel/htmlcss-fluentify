@@ -154,13 +154,39 @@ header ul li:hover .drop-list{
 header ul li .drop-list li{
     border-top: 1px solid #304778;
     border-bottom: 1px solid #304778;
+    display: block;
+}
+
+header ul li .drop-list .inizio , header ul li .drop-list .fine{
+    border-top: 0;
+    border-bottom: 0;
+    /* display: block; */
 }
 
 header ul li .drop-list li a{
     white-space: nowrap;
     font-size: 14px;
-    padding: 5px;
-    display: inline-block;
+    padding: 7px 14px;
+    display: block;
+}
+
+/* angoli sottomenu */
+.quadrato{
+    background-color: RGB(0, 25, 79);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    display: none;
+}
+
+header ul li:hover .quadrato{
+    display: block;
+}
+
+.quadrato1{
+    top:22px;
+    left: 85px;
 }
 
 /* ---------------------------------- */
