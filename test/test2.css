@@ -105,6 +105,7 @@ header ul li {
     display: inline-block;
     padding: 5px 10px;
     position: relative;
+    z-index: 2;
 }
 
 header nav {
@@ -136,6 +137,17 @@ header .nav-pulsanti{
 
 header .nav-pulsanti li a{
     color: white;
+}
+
+.current-page::before{
+    content: "";
+    padding: 14px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: green;
+    left: -7px;
+    bottom: 0;
+    z-index: -1;
 }
 
 /* menu a tendina style */
