@@ -152,15 +152,24 @@ header ul li:hover .drop-list{
 }
 
 header ul li .drop-list li{
-    border-top: 1px solid #304778;
-    border-bottom: 1px solid #304778;
     display: block;
 }
 
-header ul li .drop-list .inizio , header ul li .drop-list .fine{
-    border-top: 0;
-    border-bottom: 0;
-    /* display: block; */
+header ul li .drop-list .line-border{
+    border-top: 1px solid #5b709d;
+    border-bottom: 1px solid #5b709d;
+}
+
+header nav .nav-page :nth-child(3) .drop-list li{
+    border-bottom: 1px solid #5b709d;
+}
+
+header nav .nav-page :nth-child(5) .drop-list li{
+    border-bottom: 1px solid #5b709d;
+}
+
+header nav .nav-pulsanti :last-child .drop-list li:first-of-type{
+    border-bottom: 1px solid #5b709d;
 }
 
 header ul li .drop-list li a{
