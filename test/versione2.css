@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro';
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.box {
+    width: 1240px;
+    margin: auto;
+}
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #64DE82;
+    border: 1px solid #64DE82;
+    color: #337142;
+    text-decoration: none;
+    padding: 7px 14px;
+}
+
+.button:hover {
+    background-color: rgba(100,222,130,0.7);
+    border-color: rgba(100,222,130,0.7);
+    color: white;
+}
+
+.button.button-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.button.button-secondary:hover {
+    color: #001A4F;
+    background-color: white;
+}
+
+.sfumatura{
+    background: rgb(0,18,255);
+    height: 100%;
+    background: -webkit-gradient(linear, right top, left top, from(transparent), to(#001A4F));
+    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+}
+
+.drop::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+
+}
+
+/* inizio header */
+header{
+    background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    color: white;
+    font-size: 14px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+    margin-left: 10px;
+    z-index: 2;
+}
+
+header nav {
+    padding-top: 15px;
+    /* background-color: red; */
+    text-transform: uppercase;
+}
+
+header .logo{
+    float: left;
+}
+
+header .logo img{
+    height: 40px;
+}
+
+header .main-menu{
+    width: 70%;
+}
+
+header .main-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+header .nav-page{
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+    position: relative;
+}
+
+header .nav-pulsanti{
+    float: left;
+    text-align: right;
+    width: 30%;
+}
+
+header .nav-pulsanti li a{
+    color: white;
+    text-decoration: none;
+}
+
+.current-page::before{
+    content: "";
+    padding: 14px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: green;
+    left: -7px;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* menu a tendina style */
+header ul li .drop-list{
+    background-color: RGB(0, 25, 79);
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+}
+
+header ul li:hover .drop-list{
+    margin-top: 4px;
+    display: block;
+}
+
+header ul li .drop-list li{
+    display: block;
+}
+
+header ul li .drop-list .line-border{
+    border-top: 1px solid #5b709d;
+    border-bottom: 1px solid #5b709d;
+}
+
+header nav .nav-page :nth-child(3) .drop-list li{
+    border-bottom: 1px solid #5b709d;
+}
+
+header nav .nav-page :nth-child(5) .drop-list li{
+    border-bottom: 1px solid #5b709d;
+}
+
+header nav .nav-pulsanti :last-child .drop-list li:first-of-type{
+    border-bottom: 1px solid #5b709d;
+}
+
+header ul li .drop-list li a{
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 7px 14px;
+    display: block;
+}
+
+/* angoli sottomenu */
+.quadrato{
+    background-color: RGB(0, 25, 79);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    display: none;
+    top:22px;
+}
+
+header li:hover .quadrato{
+    display: block;
+}
+
+.quadrato1{
+    left: 80px;
+}
+
+.quadrato2{
+    left: 57px;
+}
+
+.quadrato3{
+    left: 67px;
+}
+
+.quadrato4{
+    left: 50px;
+}
+
+.quadrato5{
+    left: 68px;
+}
+
+.quadrato6{
+    left: 10px;
+    top: 0;
+}
+
+/* ---------------------------------- */
+
+header .jumbotron{
+    font-size: 18px;
+    width: 420px;
+    margin-left: 225px;
+    margin-top: 40px;
+}
+
+header .jumbotron p{
+
+}
+
+header .jumbotron h2{
+    font-size: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+header .jumbotron a{
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inizio main*/
+main{
+
+}
+
+/* style in comune */
+main h5{
+    font-size: 27px;
+    color: rgb(0, 26, 79);
+
+}
+
+main h2{
+    font-size: 40px;
+    color: rgb(114,114,114);
+    margin-bottom: 55px;
+}
+
+main p{
+    font-size: 18px;
+    color: rgb(114, 114, 114);
+}
+
+/* sezione feature */
+main .feature{
+    /* background-color: orange; */
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+
+main .feature .image{
+    float: left;
+    width: 50%;
+    /* background-color: red; */
+}
+
+main .feature .list-feature{
+    float: left;
+    width: 50%;
+    /* background-color: green; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .feature .list-feature .item-feature{
+    margin-bottom: 27px;
+    padding-bottom:27px;
+    border-bottom: 1px solid rgb(114, 114, 144);
+}
+
+main .feature .list-feature :last-child{
+    border: 0;
+}
+
+main .feature .list-feature h2 span{
+    color:#64DE82;
+}
+
+/* sezione device */
+main .device{
+    text-align: center;
+    margin-bottom: 125px;
+    /* background-color: blue; */
+}
+
+main .device .list-item h2{
+    padding-bottom: 35px;
+}
+
+main .device .list-item .item{
+    float: left;
+    width: calc(100% / 3);
+    display: inline-block;
+    padding: 25px;
+}
+
+/* sezione app */
+main .app{
+    text-align: left;
+    background-color: RGB(1, 26, 80);
+}
+
+main .app .text{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-right: 140px;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+main .app .text h3{
+    font-size: 40px;
+}
+
+main .app .text p{
+    color: white;
+    margin-bottom: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+main .app .text a{
+    color: green;
+    text-decoration: none;
+    padding-top: 18px;
+}
+
+main .app .image-app img{
+    display: inline;
+}
+
+main .app .image-app img{
+    display: block;
+}
+
+/* piattaforma */
+.piattaforma-content{
+    position: relative;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.piattaforma-content .image-piattaforfa{
+    display: inline-block;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.piattaforma-content .text{
+    display: inline-block;
+    /* background-color: blue; */
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Piano di studio */
+.piano-di-studio{
+    background-color: RGB(42, 71, 129);
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+.piano-di-studio .title{
+    display: inline-block;
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+}
+
+.piano-di-studio .text{
+    display: inline-block;
+    width: 40%;
+    /* background-color: purple; */
+}
+
+.piano-di-studio .text p{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.piano-di-studio h2{
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+
+/* footer */
+footer{
+    background-color: rgb(20,88,189);
+    color: white;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li{
+    color: white;
+}
+
+footer ul li a{
+    text-decoration: none;
+    display: block;
+    color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer ul li a:hover{
+    color: rgb(206, 245, 216);
+}
+
+footer .footer-text{
+    float: left;
+    width: 212px;
+    /* background-color: red; */
+}
+
+footer .footer-link{
+    float: left;
+    /* background-color: green; */
+    padding-top: 30px;
+}
+
+footer .footer-link-top{
+    /* background-color: green; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(206, 245, 216);
+}
+
+footer .footer-link-top ul{
+    /* background-color: orange; */
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% /6);
+}
+
+footer .footer-link-botton{
+    padding-top: 20px;
+}
+
+footer .footer-link-botton li {
+    display: inline-block;
+}
+
+footer .footer-link-botton li a{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer .footer-link-botton li :first-child{
+    padding-left: 0;
+}
+
+footer .footer-text {
+    padding-right: 20px;
+}
+
+footer .footer-text p{
+    width: 100%;
+}
+
+footer .footer-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .footer-text a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .social li{
+    padding-top: 15px;
+}
+
+footer .social li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+footer .social :first-child{
+    padding-left: 0;
+}

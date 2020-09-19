@@ -6,62 +6,93 @@
         <link rel="icon" href="https://www.fluentify.com/home/wp-content/uploads/2020/02/Favicon_Fluentify_WhiteBG-75x75.png" type="image/png"/>
         <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="versione2.css">
     </head>
     <body>
 
         <!-- inizio header -->
         <header>
-            <nav class="box">
-                <div class="clearfix">
-                    <div id="main-menu">
+            <div class="sfumatura">
+                <nav class="box clearfix">
+                    <div class="main-menu">
+                        <!-- immagine -->
                         <div class="logo">
-                            <img src="https://www.fluentify.com/home/wp-content/themes/fluentify/assets/files/Logo-fluentify.svg" alt="Fluentify logo">
+                            <a href="#"><img src="https://www.fluentify.com/home/wp-content/themes/fluentify/assets/files/Logo-fluentify.svg" alt="Fluentify logo"></a>
                         </div>
-                        <ul class="menu">
+                        <!-- link delle pagine -->
+                        <ul class="nav-page">
                             <li>
-                                <a href="#">Per aziende <i class="fas fa-chevron-down"></i></a>
-                            </li>
-                            <li>
-                                <a href="#">Metodo <i class="fas fa-chevron-down"></i></a>
-                            </li>
-                            <li>
-                                <a href="#">Supporto <i class="fas fa-chevron-down"></i></a>
-                            </li>
-                            <li>
-                                <a href="#">Risorse <i class="fas fa-chevron-down"></i></a>
+                                <span class="quadrato quadrato1"></span>
+                                <a class="drop"href="#">per aziende </a>
+                                <ul class="drop-list">
+                                    <li><a href="#">lezioni ine to one</a></li>
+                                    <li class="line-border"><a href="#">academy</a></li>
+                                    <li><a href="#">blender learning</a></li>
+                                </ul>
                             </li>
                             <li>
-                                <a href="#">Chi siamo <i class="fas fa-chevron-down"></i></a>
+                                <span class="quadrato quadrato2"></span>
+                                <a class="drop"href="#">metodo </a>
+                                <ul class="drop-list">
+                                    <li><a href="#">need analysis</a></li>
+                                    <li class="line-border"><a href="#">engagement dei dipedenti</a></li>
+                                    <li><a href="#">tutor quality program</a></li>
+                                </ul>
                             </li>
-                            <li class="current-item">
-                                <a href="#">Per privati</a>
+                            <li>
+                                <span class="quadrato quadrato3"></span>
+                                <a class="drop"href="#">supporto </a>
+                                <ul class="drop-list">
+                                    <li><a href="#">costumer success menager</a></li>
+                                    <li><a href="#">reporting</a></li>
+                                </ul>
                             </li>
+                            <li>
+                                <span class="quadrato quadrato4"></span>
+                                <a class="drop"href="#">risorse </a>
+                                <ul class="drop-list">
+                                    <li><a href="#">blog</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="quadrato quadrato5"></span>
+                                <a class="drop"href="#">chi siamo </a>
+                                <ul class="drop-list">
+                                    <li><a href="#">L'azienda</a></li>
+                                    <li><a href="#">press e news</a></li>
+                                </ul>
+                            </li>
+                            <li class="current-page"><a href="#">per privati</a></li>
                         </ul>
+
                     </div>
-                    <div id="header-buttons">
-                        <a class="button button-secondary" href="#">
-                            <i class="far fa-user-circle"></i>
-                            Login</a>
-                        <a class="button" href="#">Richiedi una demo</a>
-                        <a href="#">Ita <i class="fas fa-chevron-down"></i></a>
-                    </div>
+                    <!-- barra nav pulsanti -->
+                    <ul class="nav-pulsanti">
+                        <li><a class="button button-white"href="#">login</a></li>
+                        <li><a class="button"href="#">richiedi demo</a></li>
+                        <li>
+                            <a class="drop"href="#">ita </a>
+                            <ul class="drop-list">
+                                <span class="quadrato quadrato6"></span>
+                                <li><a href="#">ita</a></li>
+                                <li><a href="#">eng</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- barra nav link -->
+                </nav>
+
+                <!-- jumbotron -->
+                <div class="jumbotron">
+                    <p>PER PRIVATI</p>
+                    <h2>Impara l’inglese parlando</h2>
+                    <p>Il tuo tutor madrelingua privato disponibile 24 ore su 24 da qualsiasi dispositivo digitale. Dove vuoi, quando vuoi.</p>
+                    <a class="button" href="#">Aquista un piano</a>
                 </div>
-            </nav>
-            <div id="jumbotron">
-                <div class="box">
-                    <div class="jumbotron-content">
-                        <h4>Per privati</h4>
-                        <h1>
-                            Impara l’inglese parlando
-                        </h1>
-                        <p>
-                            Il tuo tutor madrelingua privato disponibile 24 ore su 24 da qualsiasi dispositivo digitale. Dove vuoi, quando vuoi.
-                        </p>
-                        <a class="button" href="#">Acquista un piano</a>
-                    </div>
-                </div>
+
             </div>
+            <!-- fine sfumatura sfondo -->
+
         </header>
         <!-- fine header -->
 
@@ -223,5 +254,6 @@
             </div>
         </footer>
         <!-- fine footer -->
+
     </body>
 </html>

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-.margin {
+.box {
     width: 1240px;
     margin: auto;
 }
@@ -233,23 +233,23 @@ header li:hover .quadrato{
 
 /* ---------------------------------- */
 
-header .header-text{
+header .jumbotron{
     font-size: 18px;
     width: 420px;
     margin-left: 225px;
     margin-top: 40px;
 }
 
-header .header-text p{
+header .jumbotron p{
 
 }
 
-header .header-text h2{
+header .jumbotron h2{
     font-size: 50px;
     margin-top: 18px;
     margin-bottom: 18px;
 }
 
-header .header-text a{
+header .jumbotron a{
     margin-top: 18px;
 }
