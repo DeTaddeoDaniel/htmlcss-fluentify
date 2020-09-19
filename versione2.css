@@ -73,6 +73,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* inizio header */
+.decorazione1{
+    position: absolute;
+    width: 204px;
+    top: 88px;
+}
+
+.decorazione2{
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+
 header{
     background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
     background-repeat: no-repeat;
@@ -103,6 +115,10 @@ header .logo{
 
 header .logo img{
     height: 40px;
+}
+
+header .logo a:hover img{
+    opacity: 0.7;
 }
 
 header .main-menu{
@@ -185,7 +201,20 @@ header ul li .drop-list li a{
     color: white;
 }
 
-header ul li:hover .drop-list li:hover a{
+header .nav-page a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+header .nav-page li:hover .drop-list a:hover{
+    color: gray;
+}
+
+header .nav-pulsanti a:hover {
+    color: gray;
+}
+
+header .nav-pulsanti li:hover .drop-list a:hover{
     color: gray;
 }
 
@@ -235,7 +264,7 @@ header .jumbotron{
     font-size: 18px;
     width: 420px;
     margin-left: 225px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 header .jumbotron p{
@@ -478,6 +507,10 @@ footer .footer-text{
     float: left;
     width: 212px;
     /* background-color: red; */
+}
+
+footer .footer-text a:hover img{
+    opacity: 0.7;
 }
 
 footer .footer-link{
