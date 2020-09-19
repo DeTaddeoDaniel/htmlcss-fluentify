@@ -42,13 +42,13 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.button.button-secondary {
+.button.button-white {
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
 
-.button.button-secondary:hover {
+.button.button-white:hover {
     color: #001A4F;
     background-color: white;
 }
@@ -64,7 +64,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f078";
+}
 
+.user::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
 }
 
 /* inizio header */
@@ -177,6 +182,11 @@ header ul li .drop-list li a{
     font-size: 14px;
     padding: 7px 14px;
     display: block;
+    color: white;
+}
+
+header ul li:hover .drop-list li:hover a{
+    color: gray;
 }
 
 /* angoli sottomenu */
